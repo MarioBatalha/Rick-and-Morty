@@ -1,0 +1,32 @@
+.person-list{
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+
+}
+
+.person-list article{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.person-list article p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+.person-list article a{
+    text-decoration: none;
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    color: #fff;
+    background: #da552f;
+    margin-top: 40px;
+    padding: 3px;
+}
+
