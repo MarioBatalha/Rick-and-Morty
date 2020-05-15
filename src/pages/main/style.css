@@ -1,8 +1,7 @@
 .person-list{
-  max-width: 700px;
+  max-width: 745px;
   margin: 20px auto 0;
-  padding: 0 20px;
-
+  padding: 0 200px;
 }
 
 .person-list article{
@@ -23,10 +22,21 @@
     text-decoration: none;
     height: 42px;
     border-radius: 5px;
-    border: 2px solid #da552f;
-    color: #fff;
-    background: #da552f;
-    margin-top: 40px;
+    border: 2px solid #999;
+    color: #ccc;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.person-list article a:hover{
     padding: 3px;
+    background: #E55D87;  
+    background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  
+    background: linear-gradient(to right, #5FC3E4, #E55D87); 
+    transition: all 0.2s;
+
 }
 

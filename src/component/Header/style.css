@@ -1,11 +1,14 @@
 #main-header{
     margin: 0;
-    background: #da552f;
     width: 100%;
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
+    color: #f2f2f2;
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: ;
+    background: #E55D87;
+    background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87); 
+    background: linear-gradient(to right, #5FC3E4, #E55D87);
+
 }

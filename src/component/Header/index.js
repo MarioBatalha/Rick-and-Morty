@@ -4,7 +4,7 @@ import './style.css'
 const Header = () =>(
 
     <header id="main-header">
-      <h1>Rick e Morty</h1>
+      <h1>Rick and Morty cast</h1>
     </header>
 );
 export default Header;
