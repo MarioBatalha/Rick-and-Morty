@@ -21,6 +21,7 @@ export default class Main extends Component{
     };
 
     render(){
+        const watch = 'https://www.minhaserie.com.br/serie/1420-rick-and-morty';
         const {res} = this.state;
         return(
             <div className="person-list">
@@ -31,7 +32,7 @@ export default class Main extends Component{
                 <p>{res.gender}</p>
                 <p>{res.status}</p>
                 <p>{res.species}</p>
-                <a href="" target="blank">Assistir</a>   
+                <a href={watch} target="blank">Assistir</a>   
                 </article> 
 
                 ))}
